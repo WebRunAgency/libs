@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function updateContactData(linkId) {
-    fetch(`http://localhost:3000/api/contacts-api/?linkId=${linkId}`, {
+    fetch(`https://app.webrun.com/api/contact-api?linkId=${linkId}`, {
         method: 'put',
     })
 }

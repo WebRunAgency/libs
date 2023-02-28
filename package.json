@@ -1,8 +1,0 @@
-{
-  "name": "libs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/WebRunAgency/libs.git",
-  "author": "Neil Alvarez Garcia <neil@webrun.com>",
-  "license": "MIT"
-}
