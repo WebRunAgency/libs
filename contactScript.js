@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function updateContactData(linkId) {
-    fetch(`${proccess.env.BACKEND_URL || 'http://localhost:3000/api/contacts-api/'}?linkId=${linkId}`, {
+    fetch(`http://localhost:3000/api/contacts-api/?linkId=${linkId}`, {
         method: 'put',
     })
 }
